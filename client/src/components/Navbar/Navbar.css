@@ -1,0 +1,104 @@
+/* Navbar.css */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-item a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .dropdown-toggle {
+    cursor: pointer;
+    margin-right:20px;
+  }
+  
+  .dropdown-menu {
+    margin-left:-15px;
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 0;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #555;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .btn-login {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 10px;
+    }
+    
+    .navbar-menu {
+      margin-top: 10px;
+    }
+    
+    .nav-item {
+      margin: 5px 0;
+    }
+    
+    .dropdown-menu {
+      position: static;
+      display: none;
+      margin-top: 10px;
+    }
+    
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+    
+    .btn-login {
+      margin-left: 40px; /* Increase the margin between signup and category button */
+    }
+  }
+  

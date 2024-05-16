@@ -1,0 +1,33 @@
+/* MenuPage.css */
+.menu-page {
+    padding: 20px;
+  }
+  
+  .menu-header {
+    margin-bottom: 20px;
+    /* Add styles for dropdown and search bar here */
+  }
+  
+  .menu-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .menu-details {
+    padding: 10px;
+  }
+  
+  .menu-details h3 {
+    margin: 0;
+  }
+  
+  .price {
+    font-weight: bold;
+  }
+  

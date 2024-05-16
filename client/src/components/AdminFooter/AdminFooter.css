@@ -1,0 +1,45 @@
+/* AdminFooter.css */
+.admin-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .table-booking,
+  .orders {
+    width: 48%; /* Adjust width as needed */
+    height:500px;
+    overflow-y:scroll;
+  }
+  
+  .horizontal-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .horizontal-card .info p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .horizontal-card .buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .horizontal-card .accept {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .horizontal-card .reject {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+  

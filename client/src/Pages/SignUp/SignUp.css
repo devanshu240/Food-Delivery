@@ -1,0 +1,77 @@
+/* Signup.css */
+
+.signup-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3c3c3c;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .btn-verify,
+  .btn-signup {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-verify:hover,
+  .btn-signup:hover {
+    background-color: #0056b3;
+  }
+  
+  .otp-section {
+    display: flex;
+    flex-direction: column; /* Show OTP section as column */
+  }
+  
+  .otp-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .redirect-login {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .redirect-login a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .redirect-login a:hover {
+    text-decoration: underline;
+  }
+  

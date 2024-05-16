@@ -1,0 +1,59 @@
+.feedback-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #acabab;
+  }
+  
+  .feedback-card-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .feedback-card-feedback {
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .feedback-card-experience {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feedback-card-owl {
+    width: 70px;
+    height: 70px;
+    background-color: #ffcc66;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .feedback-card-eyes {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #333;
+    border-radius: 50%;
+    top: 25%;
+    left: 30%;
+  }
+  
+  .feedback-card-beak {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-color: #ffcc66;
+    top: 30%;
+    left: 20%;
+    /* transform: translate(-50%, -50%) rotate(45deg); */
+  }
+  
+  .feedback-card-experience-text {
+    margin-left: 10px;
+  }
+  

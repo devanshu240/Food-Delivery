@@ -1,0 +1,147 @@
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  width: 200px;
+}
+
+.menu-card-image {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.menu-card-details {
+  padding: 10px;
+  text-align: center;
+}
+
+.menu-card h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.menu-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.menu-card button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.menu-card button:hover {
+  background-color: #0056b3;
+}
+
+/* Testing */
+
+.ModelCard {
+  width: 90%;
+  height:auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px auto;
+  color: black;
+}
+
+.ModelCard-top {
+  display: flex;
+}
+
+.ModelCard-image {
+  width: 30%;
+}
+
+.ModelCard-image-inner {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.ModelCard-details {
+  width: 70%;
+  padding-left: 10px;
+}
+
+.ModelCard-details h2 {
+  font-size: 18px;
+}
+
+.ModelCard-quantity {
+  display: flex;
+  align-items: center;
+  margin-bottom:20px;
+}
+
+.ModelCard-quantity button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  width:50px;
+}
+.ModelCard-Buy-Button{
+  width:150px;
+  height:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:20px;
+}
+
+.ModelCard-bottom {
+  margin-top: 20px;
+}
+
+.ModelCard-form {
+  margin-bottom: 10px;
+}
+
+.ModelCard-form input {
+  width: calc(100% - 80px);
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.ModelCard-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ModelCard-form button:hover {
+  background-color: #0056b3;
+}
+
+.ModelCard-feedbacks {
+  overflow-y: scroll;
+  max-height: 150px;
+}
+
+.ModelCard-feedbacks h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ModelCard-feedback-list {
+  padding-left: 10px;
+}
+
+.ModelCard-feedback-item {
+  margin-bottom: 5px;
+}

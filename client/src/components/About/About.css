@@ -1,0 +1,70 @@
+/* SectionComponent.css */
+
+.section {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items if they don't fit */
+  }
+  
+  .left-section {
+    flex: 1;
+    height: 100vh; /* Full height */
+    overflow: hidden; /* Prevent image overflow */
+  }
+  
+  .full-height-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .right-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-section {
+    margin-bottom: 40px;
+  }
+  
+  .about-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .bold-text {
+    font-weight: bold;
+    color: white;
+  }
+  
+  .special-recipe h2 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .dish-container {
+    display: flex;
+    flex-wrap: wrap; /* Wrap items if they don't fit */
+    justify-content: space-between;
+  }
+  
+  .dish-card {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width based on number of cards */
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    overflow: hidden; /* Prevent image overflow */
+    margin-bottom: 20px;
+  }
+  
+  .dish-img {
+    width: 100%;
+    height: 200px; /* Set desired height */
+    object-fit: cover;
+  }
+  
+  .dish-card p span {
+    padding: 10px;
+    text-align: center;
+  }
+  

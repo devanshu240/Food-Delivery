@@ -1,0 +1,15 @@
+function:-
+----------------
+    User:-
+    ---------
+    User can add feedback about restaurent that is vissible to all
+    User can check its previous order list
+    User can pay money
+    User can see review of that dish or add review of dish
+    
+    Admin:-
+    ----------
+    Admin can add new dish or delete or update dish
+    Admin can see Today earning
+    Admin can see feedback of Users
+    Admin can see total no of Todays order or overall orders

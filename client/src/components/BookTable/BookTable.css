@@ -1,0 +1,123 @@
+/* BookTable.css */
+
+.book-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.book-table-chef-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  height: 600px;
+  flex: 1;
+}
+
+.book-table-chef-img img {
+  width: 100%;
+  height: 600px !important;
+  /* Set height to device height */
+  object-fit: cover;
+}
+
+.reservation-form {
+  flex: 1;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="time"],
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Under Testing */
+
+.Reservation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.Reservation-container h2 {
+  margin-bottom: 20px;
+  color: black;
+}
+.Reservation-container span{
+  color: black;
+}
+.Reservation-otp-input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.reservation-otp {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.Reservation-verify-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Reservation-verify-btn:hover {
+  background-color: #0056b3;
+}
+.Reservation-answer{
+  color:black;
+  font-size:20px;
+}

@@ -1,0 +1,72 @@
+.booked-table-container {
+    display: flex;
+}
+
+.booked-table-left-side {
+    padding-top:20px;
+    width: 50%;
+    height: 100vh;
+    /* background-color: whitesmoke; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.booked-table-animation {
+    width: 150px;
+    height: 100px;
+    border-radius:10%;
+    margin-left: 10px;
+    background-color: #ff7a7a;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.booked-table-animation-green{
+    background-color: #58ff7f;
+}
+
+.booked-table-right-side {
+    padding-top:20px;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.booked-table-card {
+    width:400px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.booked-table-card .booked-table-info p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.booked-table-card .booked-table-buttons button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.booked-table-card .accept {
+    background-color: #28a745;
+    /* Green */
+    color: white;
+}
+
+.booked-table-card .reject {
+    background-color: #dc3545;
+    /* Red */
+    color: white;
+}

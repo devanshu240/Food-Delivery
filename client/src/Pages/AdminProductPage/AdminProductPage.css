@@ -1,0 +1,63 @@
+/* AdminProductPage.css */
+.admin-product-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .controls select {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .controls input[type='text'] {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .controls button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .product-form-container {
+    margin-bottom: 20px;
+  }
+  
+  .product-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+  
+  .product-form input,
+  .product-form textarea,
+  .product-form select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .product-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-card {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

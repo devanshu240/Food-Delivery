@@ -1,0 +1,62 @@
+/* FeedbackPage.css */
+.feedback-container {
+    display: flex;
+  }
+  
+  .feedback-image {
+    flex: 1;
+    height: 100vh;
+    background-color: white; /* Adjust background color as needed */
+    overflow-y:scroll;
+  }
+  
+  .feedback-form {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .feedback-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .tags-container label {
+    margin-right: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
