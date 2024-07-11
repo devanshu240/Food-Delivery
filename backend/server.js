@@ -5,6 +5,7 @@ const cors = require("cors");
 const cookie_parser = require("cookie-parser");
 const path = require("path");
 const app = express();
+require('dotenv').config();
 
 const userRoute = require("./routes/userRoutes");
 const adminRoute = require("./routes/adminRoutes");
@@ -21,13 +22,13 @@ app.use("/api/upload",express.static("upload"));
 //     console.log(`Incoming ${req.method} request to ${req.url}`);
 //     next(); // Call next() to pass control to the next middleware function
 // });
-
+const port = process.env.PORT || 8000;
 mongoose.connect("mongodb://127.0.0.1:27017/").then(()=>{console.log("connected to mongoDB")}).catch((e)=>{console.log(e)});
 
 app.use("/api/user",userRoute);
 app.use("/api/admin",adminRoute);
 app.use("/api/feedback",feedbackRoute);
 
-app.listen(8000,()=>{
+app.listen(port,()=>{
     console.log("server is running on port no 8000");
 });

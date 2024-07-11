@@ -2,8 +2,6 @@ const express = require("express");
 const Feedback = require("../model/feedback");
 const Authorization = require("../Authorization");
 const Router = express.Router();
-
-// getting list of feedback from customers
 Router.get("/list",async(req,res)=>{
     console.log("hit by feedback page");
     try{
@@ -16,7 +14,6 @@ Router.get("/list",async(req,res)=>{
     }
 });
 
-// adding feedback to data base
 Router.post("/add",Authorization,async(req,res)=>{
     try{
         const feed = new Feedback({

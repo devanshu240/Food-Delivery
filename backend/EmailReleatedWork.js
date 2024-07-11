@@ -2,7 +2,7 @@ const express = require("express");
 const Router = express.Router();
 const nodemailer = require("nodemailer");
 
-// sending Confirmation mail to User
+
 function SendConfirmationMessage(Email, TableNo, msg) {
     return new Promise((resolve,reject)=>{
         const transporter = nodemailer.createTransport({
